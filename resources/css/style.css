@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+html {
+    background-color: #fff;
+    color: #555555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    
+}
+
+h1{
+    font-family: "lust-display";
+}
+
+h2{
+    font-family: "brandon-grotesque";
+}
