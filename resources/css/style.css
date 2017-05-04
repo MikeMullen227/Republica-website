@@ -1,3 +1,9 @@
+
+/*---------------------------------------*/
+/*  BASIC SETUP  /*
+/*---------------------------------------*/
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,19 +11,146 @@
     
 }
 
-
 html {
     background-color: #fff;
-    color: #555555;
-    font-family: 'Lato', 'Arial', sans-serif;
+    color: #fff;
+    font-family: 'brandon-grotesque', 'Arial', sans-serif;
+    font-weight: 300;
     font-size: 20px;
-    
+    text-rendering: optimizeLegibility;
 }
+
+
+/*---------------------------------------*/
+/*  REUSABLE COMPONENTS  /*
+/*---------------------------------------*/
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/*----------- HEADINGS -------------*/
+
 
 h1{
     font-family: "lust-display";
+    font-size: 80px;
+    margin-left: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 3px;    
 }
 
-h2{
-    font-family: "brandon-grotesque";
+
+/*----------- BUTTONS -------------*/
+
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 150;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    font-size: 70%;
+    transition: border 0.2s, color 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+    border: 1px solid #cecece;
+    color: #cecece;
+}
+
+.btn-lg:link,
+.btn-lg: visited {
+    
+}
+
+.btn-sm:link,
+.btn-sm: visited {
+    
+}
+
+
+/*---------------------------------------*/
+/*  HEADER  /*
+/*---------------------------------------*/
+
+
+header {
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1200px;  
+    top: 50%;
+    left: 50%;
+    transform: translate(-49%, -80%);
+}
+
+.navbar-default .navbar-nav li a {
+    color: #fff;
+}
+.navbar-default .navbar-collapse {
+    border: 1px solid transparent;
+}
+
+.navbar-custom {
+    background: 0 0;
+    border: 1px solid transparent
+}
+
+
+/*------------ NAVIGATION CENTER ------------*/
+
+.navbar-center {
+    margin-left: 170px;
+    margin-top: 25px;
+}
+
+.navbar-center li {
+    display: inline-block;
+}
+
+.navbar-center li a:link,
+.navbar-center li a:visited {
+    color: #fff;
+    font-size: 80%;
+    margin-left: 40px;
+    padding: 5px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s
+}
+
+.navbar-center li a:hover,
+.navbar-center li a:active {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+/*------------ NAVIGATION RIGHT ------------*/
+
+.navbar-right {
+    margin-top: 20px;
+    
+    
+}
+.logo {
+    margin-top: 7px;
 }
