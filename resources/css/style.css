@@ -13,11 +13,14 @@
 
 html {
     background-color: #fff;
-    color: #fff;
     font-family: 'brandon-grotesque', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+}
+
+body {
+    color: #fff;
 }
 
 
@@ -75,6 +78,12 @@ h1 {
     
 }
 
+
+.btn-lg-header:link,
+.btn-lg-header: visited {
+    margin-top: 50px;
+}
+
 .btn-sm:link,
 .btn-sm: visited {
     
@@ -99,6 +108,10 @@ h1 {
     border: 1px solid transparent
 }
 
+.nav>li>a:focus, 
+.nav>li>a:hover {
+    background-color: transparent;
+}
 
 /*------------ NAVIGATION CENTER ------------*/
 
@@ -165,19 +178,40 @@ header {
     left: 50%;
     transform: translate(-49%, -80%);
     text-align: center; 
+    height: 100%;
 }
 
-.header-content-inner {
-    margin-left: auto;
-    margin-right: auto;
-    
-}
 
 .signature {
     display: block;
-    margin: 40px auto;
+    margin: 62px auto;
 
 }
+
+
+
+/*------------ Carousel ------------*/
+
+.carousel {
+    position: relative;
+    height: 100%;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    top: 33%;
+}
+
+.carousel-indicators {
+    bottom: 45px;
+    left: 72px;
+    word-spacing: 12px;
+}
+
+
 
 /*---------------------------------------*/
 /*  Eterno (Product 1)  /*
@@ -224,3 +258,6 @@ header {
     background-position: ;
     height: 400px;
 }
+
+
+

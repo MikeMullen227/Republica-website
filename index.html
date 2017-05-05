@@ -4,7 +4,6 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
 
@@ -15,7 +14,7 @@
     
     <body>
         
-            <nav class="navbar navbar-default navbar-custom">
+            <nav class="navbar navbar-fixed-top affix-top">
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <a class="navbar-brand" href="#">
@@ -59,23 +58,44 @@
             </nav> 
 
         <header>
-            <div class="container">
-                <div class="row">
-                    <div class=" hero-text-box">
-                        <h1> A new force in time </h1>
-                    </div>
-                </div>
-                    <div class="row">
-                        <div class="signature-box">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="header-content">
+                          <h1> A new force in time </h1>
                             <img src="resources/img/signature.png" class="signature">
+                            <a class="btn btn-lg-header" href="#">Supersportivo Square</a>
+                            <img src="resources/img/share_icon.png" class="share">
                         </div>
                     </div>
-                    <div class="row">
-                        <div class ="btn-lg-box">
-                            <a class="btn btn-lg" href="#">Supersportivo Square</a>
+
+                    <div class="item">
+                           <div class="header-content">
+                          <h1> A new force in time </h1>
+                            <img src="resources/img/signature.png" class="signature">
+                            <a class="btn btn-lg-header" href="#">Supersportivo Square</a>
+                            <img src="resources/img/share_icon.png" class="share">
                         </div>
                     </div>
-             </div>
+
+                    <div class="item">
+                       <div class="header-content">
+                          <h1> A new force in time </h1>
+                            <img src="resources/img/signature.png" class="signature">
+                            <a class="btn btn-lg-header" href="#">Supersportivo Square</a>
+                            <img src="resources/img/share_icon.png" class="share">
+                        </div>
+                  </div>
+                </div>
+            </div>
         </header>
        
         <section class="eterno">
@@ -83,7 +103,8 @@
                 <div class="row">
                     <div class= "col-md-5 col-md-offset-2">
                         <h2>Eterno</h2>
-                    
+                        <p1>True style is timeless. ETERNO CHRONO II is a brilliant disaggregation of classic Italian style, blending the signature BRERA OROLOGI design perspective with understated elegance, 316L Stainless Steel and subtle luxury detailing to create a wristwatch that inevitably deserves of a second look.</p1>
+                        <a class="btn btn-sm" href="#">Explore</a>
                     </div>
                 
                 </div>
@@ -94,8 +115,9 @@
         <section class="dinamico">
             <div class="container">
                 <div class="row">
-                
-                
+                    <h2>Dinamico</h2>
+                    <p1>DINAMICO is BRERA OROLOGI’s modern take on Atomic Age design – a classic yet contemporary timepiece for the ages, fusing Swiss-made Ronda Caliber 5021D quartz movement and impeccable styling to create a dynamic 44mm work of wearable art.</p1>
+                    <a class="btn btn-sm" href="#">Explore</a>
                 </div>
             </div>
         
@@ -104,8 +126,9 @@
         <section class="militare">
             <div class="container">
                 <div class="row">
-                
-                
+                    <h2>Militare</h2>
+                    <p1>Welcome to the front lines of rugged high design. MILITARY 2.0 fuses a modern utilitarian aesthetic with military precision to deliver a timepiece that always answers the call of duty with 316L Stainless Steel, locking crown-guard system and water resistance up to 30ATM.</p1>
+                    <a class="btn btn-sm" href="#">Explore</a>
                 </div>
             </div>
         
@@ -114,11 +137,17 @@
         <section class="gran-turismo">
             <div class="container">
                 <div class="row">
-                
-                
+                    <h2>Gran Turismo</h2>
+                    <p1>An ode to the Italian spirit of wanderlust, GRAN TURISMO is a chronograph amalgam of travel-inspired design aesthetic and rugged durability – blending Swiss-made Ronda 5030D chronograph and sapphire-coated K1 mineral crystal to create a wristwatch that’s perpetually road-ready.</p1>
+                    <a class="btn btn-sm" href="#">Explore</a>
                 </div>
             </div>
         
+        </section>
+        
+        
+        <section>
+            <a class="btn btn-lg" href="#">view all collections</a>
         </section>
         
         
@@ -126,7 +155,7 @@
         
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="vendors/js/bootstrap.min.js"></script>
         <script src="https://use.typekit.net/zmn8mnt.js"></script>
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
        
