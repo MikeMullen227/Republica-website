@@ -13,14 +13,16 @@
 
 html {
     background-color: #fff;
-    font-family: 'brandon-grotesque', 'Arial', sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    text-rendering: optimizeLegibility;
+    font-family: "brandon-grotesque", "Arial", "sans-serif";
+    
+    
 }
 
 body {
     color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
 }
 
 
@@ -52,13 +54,13 @@ h2 {
     font-family: 'brandon-grotesque';
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 350%;
+    font-size: 250%;
     letter-spacing: 1.2px;
 }
 
 p {
    font-family: 'brandon-grotesque'; 
-   font-size: 110%;
+   font-size: 90%;
    font-weight: 400;
    margin: 10px 0 30px;
     
@@ -71,7 +73,7 @@ p {
 .btn:link,
 .btn:visited {
     display: inline-block;
-    padding: 15px 35px;
+    padding: 15px 40px;
     font-weight: 150;
     color: #fff;
     border: 1px solid #fff;
@@ -100,8 +102,8 @@ p {
     margin-top: 50px;
 }
 
-.btn-sm:link,
-.btn-sm: visited {
+.btn-lg-footer:link,
+.btn-lg-footerr: visited {
     
 }
 
@@ -129,10 +131,11 @@ p {
     background-color: transparent;
 }
 
+
 /*------------ NAVIGATION CENTER ------------*/
 
 .navbar-center {
-    margin-left: 170px;
+    margin-left: 190px;
     margin-top: 25px;
 }
 
@@ -163,7 +166,7 @@ p {
 
 .navbar-right {
     margin-top: 20px;
-    
+    margin-right: 4px;
     
 }
 
@@ -172,7 +175,11 @@ p {
 }
 
 
-
+.nav>li>a {
+    position: relative;
+    display: block;    
+    padding: 10px 10px;
+}
 
 /*---------------------------------------*/
 /*  HEADER  /*
@@ -183,33 +190,12 @@ header {
     height: 100vh;
 }
 
-/*
-.header-content {
-    /*
-    position: absolute;
-    width: 1200px;
-    height: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-49%, -80%);
-    text-align: center;
-    
-    background-image: url(img/hero.jpg);
-    background-size: cover;
-    background-position: center;
-}
-*/
-
-.signature {
-    display: block;
-    margin: 62px auto;
-
-}
 
 .share {
     position: absolute;
-    top: 490px;
-    right: 10px;
+    right: 28px;
+    bottom: 28px;
+
 }
 
 
@@ -237,42 +223,49 @@ header {
     
 }
 
-
-
-/*
-.carousel .item {
-    position: fixed; 
-    width: 100%; height: 100%;
-    -webkit-transition: opacity 1s;
-    -moz-transition: opacity 1s;
-    -ms-transition: opacity 1s;
-    -o-transition: opacity 1s;
-    transition: opacity 1s;
-
+.carousel-container {
+    margin-top: 300px;
 }
 
-*/
 
-/*
-.carousel-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background: url(img/hero.jpg);
-    background-size: cover;
-    
-}
-
-*/
-
-/*
 .carousel-indicators {
-    bottom: 45px;
-    left: 72px;
-    word-spacing: 12px;
+    position: absolute;
+    left: 80px;
 }
-*/
+.carousel-indicators li {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    margin: 0 15px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000\9;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.carousel-indicators li.active {
+    width: 10px;    
+    height: 10px;
+    margin: -3px 12px;
+    background-color: transparent;
+}
+
+
+.signature {
+    display: block;
+    margin: 35px auto;
+
+}
+
+.supersportivo-button-grid {
+    text-align: center;
+    margin-top: 170px;
+}
+
+
+
 
 /*---------------------------------------*/
 /*  Eterno (Product 1)  /*
@@ -338,13 +331,6 @@ header {
 .militare-row {
     padding-right: 110px;
 }
-.militare-title {
-    
-}
-
-.militare-description {
-    
-}
 
 /*---------------------------------------*/
 /*  Gran Turismo (Product 4)  /*
@@ -357,9 +343,6 @@ header {
     height: 400px;
 }
 
-.gran-turismo-title {
-    
-}
 
 .gran-turismo-grid {
     margin-top: 35px;
@@ -371,3 +354,17 @@ header {
     padding-right: 75px;
 }
 
+
+/*---------------------------------------*/
+/*  Gran Turismo (Product 4)  /*
+/*---------------------------------------*/
+
+.footer {
+    background-color: #1d1d1d;
+    height: 100px;
+    text-align: center;
+}
+
+.btn-footer {
+    margin: 25px;
+}
