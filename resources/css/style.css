@@ -48,6 +48,22 @@ h1 {
     word-spacing: 3px;    
 }
 
+h2 {
+    font-family: 'brandon-grotesque';
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 350%;
+    letter-spacing: 1.2px;
+}
+
+p {
+   font-family: 'brandon-grotesque'; 
+   font-size: 110%;
+   font-weight: 400;
+   margin: 10px 0 30px;
+    
+}
+
 
 /*----------- BUTTONS -------------*/
 
@@ -55,7 +71,7 @@ h1 {
 .btn:link,
 .btn:visited {
     display: inline-block;
-    padding: 10px 30px;
+    padding: 15px 35px;
     font-weight: 150;
     color: #fff;
     border: 1px solid #fff;
@@ -164,23 +180,25 @@ h1 {
 
 
 header {
-    background-image: url(img/hero.jpg);
-    background-size: cover;
-    background-position: center;
     height: 100vh;
-    
 }
 
+/*
 .header-content {
+    /*
     position: absolute;
     width: 1200px;
+    height: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-49%, -80%);
-    text-align: center; 
-    height: 100%;
+    text-align: center;
+    
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
 }
-
+*/
 
 .signature {
     display: block;
@@ -188,6 +206,11 @@ header {
 
 }
 
+.share {
+    position: absolute;
+    top: 490px;
+    right: 10px;
+}
 
 
 /*------------ Carousel ------------*/
@@ -195,33 +218,75 @@ header {
 .carousel {
     position: relative;
     height: 100%;
+    width: 100%;
 }
 
+.carousel-inner,
+.carousel-inner .item,
+.carousel-inner .header-content {
+    height: 100%;
+}
+
+.carousel .item {
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+/*
+.carousel .item {
+    position: fixed; 
+    width: 100%; height: 100%;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+
+}
+
+*/
+
+/*
 .carousel-inner {
     position: relative;
     width: 100%;
-    overflow: hidden;
     height: 100%;
-    top: 33%;
+    overflow: hidden;
+    background: url(img/hero.jpg);
+    background-size: cover;
+    
 }
 
+*/
+
+/*
 .carousel-indicators {
     bottom: 45px;
     left: 72px;
     word-spacing: 12px;
 }
-
-
+*/
 
 /*---------------------------------------*/
 /*  Eterno (Product 1)  /*
 /*---------------------------------------*/
 
-.eterno {
+.eterno-box {
     background-image: url(img/product_1_brera.jpg);
     background-size: cover;
     background-position: ;
     height: 800px;
+}
+
+.eterno-grid {
+    margin-top: 90px;
 }
 
 
@@ -230,34 +295,79 @@ header {
 /*---------------------------------------*/
 
 
-.dinamico {
+.dinamico-box {
     background-image: url(img/product_2_brera.jpg);
     background-size: cover;
     background-position: ;
     height: 400px;
 }
 
+.dinamico-grid {
+    margin-top: 60px;
+}
+.dinamico-title {
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+.dinamico-description {
+    margin-right: 35px;
+    text-align: right;
+}
+
+.btn-dinamico {
+    float: right;
+    margin-right: 35px;
+}
+
 /*---------------------------------------*/
 /*  Militare (Product 3)  /*
 /*---------------------------------------*/
 
-.militare {
+.militare-box {
     background-image: url(img/product_3_brera.jpg);
     background-size: cover;
     background-position: ;
-    height: 400px;
+    height: 800px;
+}
+
+.militare-grid {
+    margin-top: 100px;
+}
+
+.militare-row {
+    padding-right: 110px;
+}
+.militare-title {
+    
+}
+
+.militare-description {
+    
 }
 
 /*---------------------------------------*/
 /*  Gran Turismo (Product 4)  /*
 /*---------------------------------------*/
 
-.gran-turismo {
+.gran-turismo-box {
     background-image: url(img/product_4_brera.jpg);
     background-size: cover;
     background-position: ;
     height: 400px;
 }
 
+.gran-turismo-title {
+    
+}
 
+.gran-turismo-grid {
+    margin-top: 35px;
+    padding-left: 30px;
+}
+
+.gran-turismo-description-grid {
+    text-align: right;
+    padding-right: 75px;
+}
 
