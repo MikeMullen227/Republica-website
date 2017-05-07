@@ -3,6 +3,8 @@
 /* ----- big tablets to 1200px (widths smaller than the 1140px row) ----- */
 @media only screen and (max-width: 1200px)   {
     
+.carousel .item {
+    background-position: right;
 }
 
 
@@ -11,7 +13,19 @@
 /* ----- small tablets to big tablets: from 768 to 1023px ----- */
 @media only screen and (max-width: 1023px)   {
     body { font-size: 18px; }
+    h1 { font-size: 70px; }
     section { padding: 60px 0; }
+    .carousel-container {margin-top: 150px};
+    .force {text-align: center;}
+    .signature { margin: 0 auto;}
+    
+    .navbar center li 
+    .nav>li>a>img {
+        width: 70%;
+        height: 70%;
+    }
+    
+    
 }
 
 
@@ -19,7 +33,20 @@
 
 /* ----- small phones to small tablets: from 481 To 767px ----- */
 @media only screen and (max-width: 767px)   {
+    h1 {
+        text-align: center;
+        margin: auto;
+        font-size: 60px;
+    } 
+    .force {text-align: center;}
     
+    .supersportivo-button-grid { margin-top: 55px;}
+    
+    .signature {
+        margin: 0 auto;
+    }
+    
+ 
 }
 
 
@@ -28,4 +55,142 @@
 /* ----- small phones: from 0 to 480px ----- */
 @media only screen and (max-width: 480px)   {
     
+    body { font-size: 16px; }
+    
+    
+    h1 {
+        text-align: center;
+        margin: auto;
+        font-size: 50px;
+    } 
+    
+
+    /* ----- header ----- */
+    
+    .logo {
+        width: 140px;
+    }
+    
+    .navbar-toggle {
+        margin-top: 19px;
+        margin-right: 22px;
+    }
+    .carousel-container {margin-top: 200px;}
+    
+    
+    .signature {
+        margin: auto;
+        padding: 30px 0;
+        width: 65%;
+        
+    }
+    
+    
+    .btn-lg-header:link {
+        font-size: 70%;
+        padding: 10px 20px;
+    }
+    
+    .supersportivo-button-grid { margin-top: 40px;}
+    
+    .share {
+        bottom: 15px;
+    }
+    
+
+    
+    /* ----- watches ----- */
+    
+    .eterno-box { 
+        background-position: 3%;
+        height: 600px;
+    }
+    
+    .eterno-grid {text-align: center; }
+    
+    .eterno-description-grid {text-align: center; }
+    
+    
+    
+    
+    .dinamico-title {
+        margin-top: 35px;
+        margin-left: 0;
+    }
+    
+    .dinamico-box {
+        background-position: -29%;
+        height: 600px;
+    }
+    
+    .dinamico-grid { text-align: center; }
+    
+    .dinamico-description {
+        margin-right: 0;
+        text-align: center;
+    }
+    
+    .dinamico-description-grid {
+        text-align: center;
+    }
+    
+    .btn-dinamico {
+        float: none;
+        margin-right: 0;
+    }
+    
+    .militare-row {
+     padding-right: 0; 
+    }
+    
+     .militare-title {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    
+    
+    .militare-box {
+        background-position: 3%;
+        height: 600px;
+    }
+    
+    .militare-grid { text-align: center; }
+    
+    .militare-description-grid {text-align: center; }
+    
+    
+    
+    .gran-turismo-title {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    
+    
+    .gran-turismo-box {
+        background-position: 97%;
+        height: 600px;
+    }
+    
+    .gran-turismo-grid {
+        text-align: center; 
+        margin-top: 100px;
+        padding-left: 0;
+    }
+        
+    
+    .gran-turismo-description-grid {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+    
+    
+    .footer {
+        padding: 0;
+    }
+    
+    .btn-lg.btn-footer {
+        font-size: 60%;
+    }
+
 }
