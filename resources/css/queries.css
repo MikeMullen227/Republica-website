@@ -6,7 +6,7 @@
     
     p { font-size: 80% }
     
-    .carousel-container {margin-top: 150px;}
+    .carousel-container {margin-top: 200px;}
     .carousel .item { background-position: right; }
     .force {text-align: center;}
             
@@ -23,6 +23,34 @@
     .btn-turismo { margin-right: 20px; }
     
     .footer {padding: 0; }
+    
+    .logo {
+        width: 80%;
+    }
+    
+    .navbar-center li a:link {
+        margin-left: 15px;
+        font-size: 72%;
+    }
+    
+    .customer {
+        width: 140px;
+    }
+    
+     .navbar-right>li>a {
+        width: 70%;
+        padding: 9px 2px;
+    }
+    
+    
+    .nav>li>a>img {
+        width: 120%;
+    }
+    
+    .navbar-right {
+        position: absolute;
+        right: 10px;
+    }
 
 
 /* ----- small tablets to big tablets: from 768 to 1023px ----- */
@@ -32,7 +60,7 @@
     h1 { font-size: 70px; }
     p { font-size: 80%; }
     section { padding: 60px 0; }
-    .carousel-container {margin-top: 150px;}
+    .carousel-container {margin-top: 250px;}
     .force {text-align: center;}
     .signature { margin: 0 auto;}
     
