@@ -266,9 +266,10 @@ header {
     background-color: transparent;
 }
 
-
-.signature {
-    display: block;
+.signature-box {
+    text-align: center;
+}
+.signature{
     padding-top: 20px;
 
 }
