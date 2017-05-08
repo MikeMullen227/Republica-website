@@ -166,7 +166,7 @@ li {
 
 .navbar-center li a:hover,
 .navbar-center li a:active {
-    color: #fff;
+    color: #fff !important;
     border-bottom: 2px solid #fff;
 }
 
