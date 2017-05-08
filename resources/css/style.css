@@ -204,7 +204,7 @@ header {
 
 .share {
     position: absolute;
-    right: 28px;
+    right:  28px;
     bottom: 28px;
 
 }
@@ -305,7 +305,6 @@ header {
 .dinamico-box {
     background-image: url(img/product_2_brera.jpg);
     background-size: cover;
-    background-position: ;
     height: 400px;
 }
 
@@ -334,7 +333,6 @@ header {
 .militare-box {
     background-image: url(img/product_3_brera.jpg);
     background-size: cover;
-    background-position: ;
     height: 800px;
 }
 
@@ -353,7 +351,6 @@ header {
 .gran-turismo-box {
     background-image: url(img/product_4_brera.jpg);
     background-size: cover;
-    background-position: ;
     height: 400px;
 }
 
