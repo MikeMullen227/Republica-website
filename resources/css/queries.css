@@ -208,15 +208,13 @@
     .eterno-description-grid {text-align: center; }
     
     
-    
-    
     .dinamico-title {
         margin-top: 35px;
         margin-left: 0;
     }
     
     .dinamico-box {
-        background-position: -29%;
+        background-position: -37%;
         height: 600px;
     }
     
@@ -253,9 +251,15 @@
     
     .militare-grid { text-align: center; }
     
+    .militare-description {
+        margin: 0;
+    }
+    
     .militare-description-grid {text-align: center; }
     
-    
+    .btn-militare {
+        margin: 40px;
+    }
     
     .gran-turismo-title {
         margin-top: 0;
@@ -349,5 +353,14 @@
         background: rgba(124, 124, 124, 0.46);
     }
     
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .eterno-box {
+        background-size: initial;
+    }
     
+    .militare-box {
+        background-size: initial;
+    }
 }
