@@ -137,6 +137,12 @@ li {
     background-color: transparent;
 }
 
+.navbar-fixed-top.scrolled {
+  background-color: rgba(41, 41, 41, 0.95) !important;
+  transition: background-color 200ms linear;
+  height: 85px;  
+    
+}
 
 /*------------ NAVIGATION CENTER ------------*/
 
@@ -173,7 +179,7 @@ li {
 /*------------ NAVIGATION RIGHT ------------*/
 
 .navbar-right {
-    margin-top: 20px;
+    margin-top: 18px;
     margin-right: 4px;
     
 }
@@ -373,7 +379,7 @@ header {
 /*---------------------------------------*/
 
 .footer {
-    background-color: #1d1d1d;
+    background-color: #1a1a1a;
     height: 100px;
     text-align: center;
 }
